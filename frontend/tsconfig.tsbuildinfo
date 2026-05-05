@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/data/mock-data.ts","./src/pages/audittrail.tsx","./src/pages/conflictresolution.tsx","./src/pages/deadletterqueue.tsx","./src/pages/healthdashboard.tsx","./src/pages/integrationengine.tsx","./src/pages/offlinesync.tsx","./src/pages/schematranslation.tsx","./src/pages/syncdashboard.tsx"],"version":"5.6.3"}
