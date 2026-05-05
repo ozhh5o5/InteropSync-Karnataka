@@ -1,44 +1,11 @@
-InteropSync Karnataka - Local Run Instructions
-==============================================
+InteropSync Karnataka - Quick Run Guide
+=======================================
 
-Follow these steps to run the InteropSync Karnataka project on your local machine:
+1. Open your terminal in the "frontend" folder.
+2. Run "npm install" to install dependencies.
+3. Run "npm run dev" to start the server.
+4. Open your browser and go to "http://localhost:5173".
 
-Prerequisites:
--------------
-1. You must have Node.js installed on your computer (Version 18 or higher is recommended).
-2. You must have an internet connection to download the required packages initially.
+To stop the server, press "Ctrl + C" in the terminal.
 
-Step 1: Open the Project Directory
-----------------------------------
-1. Open your File Explorer.
-2. Navigate to the folder where you extracted this project.
-3. Open the "frontend" folder.
-
-Step 2: Install Dependencies
-----------------------------
-1. Open your terminal or command prompt in the "frontend" folder.
-   (In Windows, you can click on the address bar in File Explorer, type "cmd", and press Enter).
-2. Type the following text and press Enter:
-   npm install
-3. Wait for the installation to finish. This might take a minute or two.
-
-Step 3: Start the Application
------------------------------
-1. In the same terminal or command prompt, type the following text and press Enter:
-   npm run dev
-2. Wait a few seconds until you see a message saying the server is ready, usually indicating "Local: http://localhost:5173/".
-
-Step 4: View in Browser
------------------------
-1. Open your web browser (Chrome, Edge, Firefox, etc.).
-2. Type "http://localhost:5173" in the address bar and press Enter.
-3. You should now see the InteropSync Karnataka Dashboard.
-
-How to Stop the Application:
-----------------------------
-When you are done testing, go back to the terminal or command prompt window and press "Ctrl + C" on your keyboard. It will ask if you want to terminate the batch job; press "Y" and then Enter.
-
-Notes:
-------
-- This project is a self-contained Single Page Application (SPA). It does not require a separate backend server to run for testing, as it uses embedded mock data to demonstrate all the features.
-- If you intend to deploy to Vercel, simply import the repository and set the Root Directory to "frontend". Vercel will automatically detect the settings.
+Note: This is a standalone Single Page Application (SPA) with embedded mock data. No backend server is required.
